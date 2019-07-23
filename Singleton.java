@@ -1,4 +1,4 @@
-//防止继承
+//final防止继承
 public final class Singleton {
 	
 	//配置静态构造函数，防止外部创建对象
