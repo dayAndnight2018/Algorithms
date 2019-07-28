@@ -49,7 +49,7 @@ public class Power {
       double result = solution2(base, exponent>>1);
       result *= result;
       
-      if(exponent & 0x01 == 1)
+      if((exponent & 0x01) == 1)
       {
         result *= base;
       }
